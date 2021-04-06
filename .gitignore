@@ -29,3 +29,7 @@ hs_err_pid*
 target/classes/META-INF/MANIFEST.MF
 target/classes/META-INF/maven/com.einsoft/design-patterns-examples/pom.properties
 target/classes/META-INF/maven/com.einsoft/design-patterns-examples/pom.xml
+/target/
+
+#netbeans
+nb-configuration.xml
