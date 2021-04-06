@@ -8,6 +8,7 @@
 	<name>Design Patterns Examples</name>
 	<description>Examples of Design Patterns in Java</description>
 	<properties>
+            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>13</maven.compiler.source>
 		<maven.compiler.target>13</maven.compiler.target>
 	</properties>
@@ -25,4 +26,26 @@
 			</plugin>
 		</plugins>
 	</build>
+        
+        <dependencies>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.13.1</version>
+                <scope>test</scope>
+            </dependency>
+        
+            <dependency>
+                <groupId>com.google.truth</groupId>
+                <artifactId>truth</artifactId>
+                <version>1.0</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.google.truth.extensions</groupId>
+                <artifactId>truth-java8-extension</artifactId>
+                <version>1.0</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
 </project>

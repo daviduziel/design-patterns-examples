@@ -12,12 +12,11 @@ public abstract class Duck {
 		this.quackBehavior = quackBehavior;
 	}
 
-	public void performFly() {
-		System.out.println(this.flyBehavior.fly());
+	public String performFly() {
+		return this.flyBehavior.fly();
 	}
 
-	public void performQuack() {
-		System.out.println(this.quackBehavior.quack());
-
+	public String performQuack() {
+		return this.quackBehavior.quack();
 	}
 }
